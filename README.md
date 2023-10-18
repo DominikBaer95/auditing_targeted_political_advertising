@@ -8,14 +8,14 @@ Political advertising on social media has become a central element in election c
 
 ## Data
 
-All data used for the analysis is publicly available.
-Data on political ads on Facebook and Instagram is available via the Meta Ad Library: https://www.facebook.com/ads/library/
-Targeting data is available via the Meta Ad Targeting Dataset: https://developers.facebook.com/docs/fort-ads-targeting-dataset/
-To ensure reporducability, we provide a all ad ids for all ads in our dataset. Due to Meta's privacy policy we cannot share any further information.
+All data used for the analysis is publicly available.\
+Data on political ads on Facebook and Instagram is available via the Meta Ad Library: https://www.facebook.com/ads/library/ \
+Targeting data is available via the Meta Ad Targeting Dataset: https://developers.facebook.com/docs/fort-ads-targeting-dataset/ \
+To ensure reproducibility, we provide all ad IDs for all ads in our dataset. Due to Meta's privacy policy, we cannot share any further information.
 
 ## Code
 
-Ads are mapped to the corresponding parties using the "mapping_parties_germany.Rmd" file.
-Data from the Meta Ad Library and the Meta Ad Targeting Dataset is merged and preprocessed via "create_DE_data.py."
-The analysis for RQ1 and RQ2 are performed via "paper_figures.ipynb."
+Ads are mapped to the corresponding parties using the "mapping_parties_germany.Rmd" file. \
+Data from the Meta Ad Library and the Meta Ad Targeting Dataset is merged and preprocessed via "create_DE_data.py." \
+The analysis for RQ1 and RQ2 are performed via "paper_figures.ipynb." \
 The regression analysis and machine learning approach are implemented in "regression_analysis.ipynb."
