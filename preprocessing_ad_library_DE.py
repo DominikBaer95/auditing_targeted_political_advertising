@@ -1,5 +1,5 @@
 """
-A script to preprocess raw ad library data. Written by Dominik Bar and modified by Francesco Pierri (07/2023)
+A script to preprocess raw ad library data.
 """
 
 import pandas as pd
